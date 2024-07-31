@@ -4,7 +4,7 @@ import myImage from '../images/my_image.png';
 
 const Home = () => {
   return (
-    <div className="bg-dark text-light p-4">
+    <div id="home" className="bg-dark text-light p-4 mt-5">
       <Container 
         className='d-flex flex-column justify-content-center align-items-center text-center p-1'
         style={{ height: "100%" }} // Ensure the container takes full height for vertical centering

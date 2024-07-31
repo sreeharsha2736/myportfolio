@@ -1,3 +1,4 @@
+import { HashRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './pages/About';
@@ -7,12 +8,14 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-    <div className="App bg-dark text-light">
+    <div className="App bg-dark text-light">     
+      <HashRouter>
       <Navbar />
       <Home />
       <About />
-      <Contact />
       <Projects />
+      <Contact />
+    </HashRouter>
     </div>
   );
 }

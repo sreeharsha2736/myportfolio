@@ -1,6 +1,8 @@
+body{
+  color: blanchedalmond !important;
+}
 .about-container {
   padding: 20px;
-  background-color: #f8f9fa;
 }
 
 .card {
@@ -15,3 +17,4 @@
 .card-body {
   font-size: 1rem;
 }
+

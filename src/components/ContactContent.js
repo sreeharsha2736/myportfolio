@@ -7,7 +7,7 @@ const ContactContent = () => {
     <>
       <Row className='d-flex'>
         <Col className='p-2'>
-          <Card className="mb-4">
+          <Card className="mb-4 bg-dark text-light">
             <Card.Body>
               <Card.Title>Contact Us</Card.Title>
               <Card.Text>
